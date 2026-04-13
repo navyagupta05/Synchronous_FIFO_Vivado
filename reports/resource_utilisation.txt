@@ -1,4 +1,4 @@
-## Resource Utilization (Post-Synthesis)
+Resource Utilization (Post-Synthesis)
 
 | Resource            | Used | Available | Utilization |
 |--------------------|------|----------|-------------|
