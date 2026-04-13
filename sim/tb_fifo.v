@@ -1,24 +1,4 @@
 `timescale 1ns / 1ns
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 04/02/2026 04:18:19 PM
-// Design Name: 
-// Module Name: tb_fifo
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module tb_FIFO();
 
