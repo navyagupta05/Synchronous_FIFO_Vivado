@@ -1,12 +1,15 @@
-## Timing Summary (Post-Route)
-| Metric                        | Value       |
-|-------------------------------|-------------|
-| Clock Period                  | 10.000 ns   |
-| Clock Frequency               | 100 MHz     |
-| Worst Negative Slack (WNS)    | +6.756 ns   |
-| Worst Hold Slack (WHS)        | +0.094 ns   |
-| Timing Violations             | 0           |
-| Device                        | Artix-7 (7a100t-csg324) |
-| Memory Primitive              | RAMB18E1 (Block RAM)    |
+Timing Summary (Post-Route)
+---------------------------------------------------------------
+| Metric                     | Value                          |
+---------------------------------------------------------------
+| Clock Period              | 10.000 ns                      |
+| Clock Frequency           | 100 MHz                        |
+| Worst Negative Slack (WNS)| +6.756 ns                      |
+| Worst Hold Slack (WHS)    | +0.094 ns                      |
+| Timing Violations         | 0                              |
+| Device                    | Artix-7 (7a100t-csg324)        |
+| Memory Primitive          | RAMB18E1 (Block RAM)           |
+---------------------------------------------------------------
 
-All timing constraints met. Design operates at 100 MHz with 6.756 ns of setup slack.
+All timing constraints met. The design operates reliably at 100 MHz 
+with a setup slack margin of 6.756 ns.
