@@ -58,3 +58,6 @@ The FIFO was verified using a testbench with:
 * Continuous data flow
 
 Waveforms confirm correct FIFO behavior.
+
+![Schematic](sim/schematic.png)
+This is a synchronous FIFO implemented using Block RAM. It uses separate read and write pointers to manage data flow. The write pointer increments during write operations, and the read pointer during read operations. Full and empty conditions are detected using pointer comparison, with MSB inversion for full detection. The design is fully synchronous and optimized for FPGA implementation.
